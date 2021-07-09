@@ -1,0 +1,129 @@
+h1, em
+     {
+     	color: blac
+     }
+
+     p {
+     	color: blu
+     }
+
+
+ .introduction
+               {
+               	color: orange
+               }
+
+.fin{
+	color: orange
+}
+ h1
+      {
+      	font-size: 9em;
+      }
+ p
+    {
+    	font-size: 1em;
+    }
+
+    h2
+    {
+    	font-size: 2.5em;
+  }
+
+
+
+ ul
+   {
+   	font-size: 	1.5em;
+   }
+
+.mag
+  {
+  	font-family: "courier new";
+
+  }
+
+  h2
+    {
+    	font-family: impact;
+    }
+
+    h1{
+    	text-align: center;
+   }
+
+signa{ /* le text sera a droite*/
+          text-align: right;
+}
+
+.geste{
+	
+  text-align: center;
+}
+
+.flottante{
+	        float: right;
+}
+.aquilas{
+	      float: right;
+}
+.stop{
+	   clear: right;
+}
+bod{     background-color : black; /* Le fond de la page sera noir */
+          
+ color : white; /* Le texte de la page sera blanc */ 
+} 
+bod{ 
+	 background : url("patate.jpg") fixed no-repeat top right, url("plate.jpg") fixed;
+color: white;
+
+ }
+bod{
+	background-image: url("patate.jpg");
+	background-attachment: fi
+	color: blue
+}
+mar{background-color: green;
+	color: red;
+
+}
+
+p{
+	 text-align: justify;
+
+}
+
+h{
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+}
+  {     border-radius : 10px;
+border: 5px black double;
+}
+
+{
+	border-radius: 10px; /*bordu arrondi */
+	border: 10px orange double;
+}
+
+
+
+{ /* ajouté une ombre sous le paragraphe */ 
+ box-shadow: 6px 6px 0px black;
+}
+
+ {     
+	box-shadow : 6px 6px 6px black; /* ajouter une ombre adouci sous le paragraphe */
+	 } 
+
+	  {     
+	 	text-shadow : 2px 2px 4px black; /*ajouter de l'ombre au texte*/
+	  } 
+
+a/* Liens par défaut (non sur volés) */ {    text-decoration : none;    color : red;   
+ font-style : italic; } 
+ 
+a:hover /* Apparence au survol des liens */ {    text-decoration : underline;    color : green; } 
+
+a:visited /* Quand le visiteur a déjà vu la page concernée */ {     color : blue; /* Appliquer une couleur grise */ } 
