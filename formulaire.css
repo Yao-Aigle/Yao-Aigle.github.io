@@ -41,3 +41,35 @@ input[ type=submit]:hover{
     margin-right: 20%;
 
 }
+
+.anacade_cafe{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.anacade_cafe td,
+.anacade_cafe th{
+    border: 1px solid gray;
+    padding: 8px;
+}
+
+.anacade_cafe th{
+   background: #4cAf50;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
+}
+
+.anacade_cafe tr:nth-child(even){
+    background-color:#f2f2f2 ;
+}
+
+.anacade_cafe tr{
+    text-align: center;
+}
+
+.anacade_cafe tr:hover{
+    background: #ddd;
+}
+
