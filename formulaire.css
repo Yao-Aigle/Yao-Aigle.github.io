@@ -73,3 +73,15 @@ input[ type=submit]:hover{
     background: #ddd;
 }
 
+.border{
+    border: solid rgb(118, 187, 138) 15px ;
+
+}
+
+li {
+
+    list-style: none;
+    
+    text-align: center;
+}
+
