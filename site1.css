@@ -2,12 +2,16 @@ header{
     color: white;
     background-color: #2c3e50;
    display: inline-flex;
-    width: 120%;
+    width:120%;
   
+}
+
+.sect{
+    width:120%;
 }
 .vide{
     background-color: mediumspringgreen;
-    width: 100% ;
+    width: 116%;
 }
 .port{
     text-align: center;
@@ -39,17 +43,33 @@ h2{
 }
 
 
-img{width: 200px;
+
+
+.pot1 img{
+    width: 200px;
     height: 200px;
 margin-left:50px ;
 margin-top: 50px;
 border-radius: 75px ;
 
-
-
-
-    
 }
+.pot2 img{
+    width: 200px;
+    height: 200px;
+margin-left:50px ;
+margin-top: 50px;
+border-radius: 75px ;
+
+}
+.pot3 img{
+    width: 200px;
+    height: 200px;
+margin-left:50px ;
+margin-top: 50px;
+border-radius: 75px ;
+
+}
+
 
 
 
@@ -67,6 +87,39 @@ div{
 section{
     margin-top: -5%;
 }
+/* section des cartes*/
+.carte{
+    border:  1px solid solid;
+    border-radius: .6rem;
+    box-shadow: 0 0 0.9rem rgb(0,0,0);
+}
+.carte img{
+    width: 100%;
+    transform: scale(.9); /* agrandir ou diminuer*/
+    max-height: 15rem; /*pour que les images aient la meme hauteur*/
+
+}
+.carte img:hover{
+    transform: scale(.8);
+    transition: 200ms ease-out;
+    filter: grayscale(1);
+
+    
+}
+.carte h4,p{
+    text-align: center;
+
+}
+.grande-carte{
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(35ch, 1fr)); /*reduction de l'ecran au niveau des cartes*/
+    grid-gap: 1.7rem;
+    margin-top: 2rem;
+}
+
+
 
 
 .pot1 {
@@ -106,7 +159,7 @@ section{
 }
 
 footer{ background-color: #2c3e50;
-    width: 100%;
+    width:120%;
 margin-top:1% ;
 color: white;
 padding-bottom: -100px;
@@ -153,7 +206,7 @@ a{
 
   .fb {
     border: solid 1px white;
-    border-radius: 75px;
+    border-radius: 80px;
     padding: 10Px 10px;
     
     
@@ -199,5 +252,5 @@ a{
 .in:hover{
     color:black;
     background-color: white;
+    
 }
-
