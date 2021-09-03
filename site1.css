@@ -1,18 +1,35 @@
+body{
+    width: 100%;
+}
 header{
     color: white;
     background-color: #2c3e50;
    display: inline-flex;
-    width:120%;
+    width:100%;
   
 }
+h2{
+    padding: 1rem;
+    margin-left: -5;
+    margin-top: -1px;
 
-.sect{
-    width:120%;
+
 }
+.prest li
+{ 
+    display: inline-flex;
+    list-style: none;
+    margin-left: 120px;
+
+}
+
+/*section du dizaille*/
 .vide{
-    background-color: mediumspringgreen;
-    width: 116%;
+    background:rgb(106, 233, 95) ;
+    width:96.4% ;
+    
 }
+
 .port{
     text-align: center;
     margin-left: 45%;
@@ -25,25 +42,10 @@ header{
 }
 
 
-
-.prest li
-{ 
-    display: inline-flex;
-    list-style: none;
-    margin-left: 120px;
-
+/*section des images*/
+.sect{
+    margin-top: -5%;
 }
-
-h2{
-    padding: 1rem;
-    margin-left: -5;
-    margin-top: -1px;
-
-
-}
-
-
-
 
 .pot1 img{
     width: 200px;
@@ -84,10 +86,7 @@ div{
   
 }
 
-section{
-    margin-top: -5%;
-}
-/* section des cartes*/
+/*section des carte*/
 .carte{
     border:  1px solid solid;
     border-radius: .6rem;
@@ -158,8 +157,10 @@ section{
    
 }
 
+/*section du footer*/
+
 footer{ background-color: #2c3e50;
-    width:120%;
+    width:120;
 margin-top:1% ;
 color: white;
 padding-bottom: -100px;
